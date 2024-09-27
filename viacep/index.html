@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ViaCep</title>
+</head>
+<body>
+    <form method="get" action=".">
+    <label>CEP:</label><br>
+    <input name="cep" type="text" id="cep" size="10" maxlength="9" onblur="pesquisaCEP(this.value)"><a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Não sei meu CEP</a><br>
+    <label >Rua:</label><br>
+    <input name="rua" type="text" id="rua" size="64"><br>
+    <label>Bairro:</label><br>
+    <input name="bairro" type="text" id="bairro" size="32"><br>
+    <label>Cidade:</label><br>
+    <input name="cidade" type="text" id="cidade" size="32"><br>
+    <label>UF:</label><br>
+    <input name="uf" type="text" id="uf" size="32"><br>
+    </form>
+    <script href="script.js"></script>
+</body>
+</html>
